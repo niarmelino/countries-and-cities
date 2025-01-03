@@ -55,8 +55,8 @@ function clickVerCapa(ciudad, mapaDeReferencia) {
 
     if (!capasVisibles.find(capa => capa.id == capaId)) {
         var capaCiudades = L.geoJSON(ciudad.ciudades, {
-            pointToLayer: estiloDelPuntoDeLaCapaCiudades
-            //onEachFeature: onEachFeature,
+            pointToLayer: estiloDelPuntoDeLaCapaCiudades,
+            onEachFeature: popup,
         }).addTo(mapaDeReferencia);
     
         var capaLimite = L.geoJSON(ciudad.limite, {
@@ -91,22 +91,24 @@ export function crearMenu(mapaDeReferencia) {
     ciudades.forEach(ciudad => crearBotones(ciudad, mapaDeReferencia));
 }
 
-// function addClassToPopupIfMedia(content, popup) {
-//     var tempDiv = document.createElement('div');
-//     tempDiv.innerHTML = content;
-//     if (tempDiv.querySelector('td img')) {
-//         popup._contentNode.classList.add('media');
-//             // Delay to force the redraw
-//             setTimeout(function() {
-//                 popup.update();
-//             }, 10);
-//     } else {
-//         popup._contentNode.classList.remove('media');
-//     }
-// }
-// var zoomControl = L.control.zoom({
-//     position: 'topleft'
-// }).addTo(map);
-// var bounds_group = new L.featureGroup([]);
-// function setBounds() {
-// }
+function popup(feature, layer) {
+    // Extraigo las propiedades que me interesan mostrar del objeto feature
+    const {
+        properties: {
+            fecha_relevamiento,
+            nombre,
+            poblacion
+        }
+    } = feature;
+
+    // Obtengo el template que esta en el html y hago una copia
+    const template = document.querySelector('#informacionCiudad').content.cloneNode(true);
+
+    // Asigno los datos en el template
+    template.querySelector("#card-title").textContent = nombre;
+    template.querySelector("#poblacion").textContent = poblacion;
+    template.querySelector("#fechaRelevamiento").textContent = fecha_relevamiento;
+
+    // Le paso el template al popup.
+    layer.bindPopup(template);
+}
