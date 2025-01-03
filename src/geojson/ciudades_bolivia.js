@@ -1,0 +1,36 @@
+export const ciudadesBolivia = {
+
+"type": "FeatureCollection",
+"name": "ciudades_bolivia",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "80198", "pais": "Bolivia", "nombre": "La Paz", "poblacion": 1687426, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -68.15, -16.5 ] } },
+{ "type": "Feature", "properties": { "id": "80199", "pais": "Bolivia", "nombre": "Oruro", "poblacion": 264943, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -67.48333, -17.76667 ] } },
+{ "type": "Feature", "properties": { "id": "80200", "pais": "Bolivia", "nombre": "Huanuni", "poblacion": 20336, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -66.85, -18.26667 ] } },
+{ "type": "Feature", "properties": { "id": "80201", "pais": "Bolivia", "nombre": "Potosí", "poblacion": 176022, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -65.75, -19.58333 ] } },
+{ "type": "Feature", "properties": { "id": "80203", "pais": "Bolivia", "nombre": "Villazón", "poblacion": 35073, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -65.6, -22.1 ] } },
+{ "type": "Feature", "properties": { "id": "80202", "pais": "Bolivia", "nombre": "LLallagua", "poblacion": 35337, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -66.63333, -18.41667 ] } },
+{ "type": "Feature", "properties": { "id": "80204", "pais": "Bolivia", "nombre": "Tupiza", "poblacion": 27463, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -65.71667, -21.45 ] } },
+{ "type": "Feature", "properties": { "id": "80205", "pais": "Bolivia", "nombre": "Cochabamba", "poblacion": 1055190, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -66.15, -17.38333 ] } },
+{ "type": "Feature", "properties": { "id": "80206", "pais": "Bolivia", "nombre": "Sucre", "poblacion": 238798, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -65.28333, -19.03333 ] } },
+{ "type": "Feature", "properties": { "id": "80207", "pais": "Bolivia", "nombre": "Tarija", "poblacion": 179561, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -64.75, -21.51667 ] } },
+{ "type": "Feature", "properties": { "id": "80208", "pais": "Bolivia", "nombre": "Yacuiba", "poblacion": 64163, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.75, -21.99 ] } },
+{ "type": "Feature", "properties": { "id": "80210", "pais": "Bolivia", "nombre": "Bermejo", "poblacion": 29564, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -64.7, -22.16667 ] } },
+{ "type": "Feature", "properties": { "id": "80209", "pais": "Bolivia", "nombre": "Villamontes", "poblacion": 30228, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.5, -21.25 ] } },
+{ "type": "Feature", "properties": { "id": "80211", "pais": "Bolivia", "nombre": "Santa Cruz de la Sierra", "poblacion": 1442396, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.16667, -17.8 ] } },
+{ "type": "Feature", "properties": { "id": "80212", "pais": "Bolivia", "nombre": "Montero", "poblacion": 107298, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -62.8, -17.63333 ] } },
+{ "type": "Feature", "properties": { "id": "80217", "pais": "Bolivia", "nombre": "Camiri", "poblacion": 33251, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.53333, -20.1 ] } },
+{ "type": "Feature", "properties": { "id": "80214", "pais": "Bolivia", "nombre": "La Guardia", "poblacion": 28855, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -64.6, -21.65 ] } },
+{ "type": "Feature", "properties": { "id": "80220", "pais": "Bolivia", "nombre": "Mineros", "poblacion": 23126, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.2333, -17.1667 ] } },
+{ "type": "Feature", "properties": { "id": "80213", "pais": "Bolivia", "nombre": "Warnes", "poblacion": 18340, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.16667, -17.5 ] } },
+{ "type": "Feature", "properties": { "id": "80215", "pais": "Bolivia", "nombre": "Yapacaní", "poblacion": 79078, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.52563, -17.2432 ] } },
+{ "type": "Feature", "properties": { "id": "80216", "pais": "Bolivia", "nombre": "El Torno", "poblacion": 80809, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.38333, -17.98333 ] } },
+{ "type": "Feature", "properties": { "id": "80218", "pais": "Bolivia", "nombre": "Cotoca", "poblacion": 31798, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -63.05, -17.81667 ] } },
+{ "type": "Feature", "properties": { "id": "80219", "pais": "Bolivia", "nombre": "San Ignacio de Velasco", "poblacion": 24288, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -60.98333, -16.38333 ] } },
+{ "type": "Feature", "properties": { "id": "80221", "pais": "Bolivia", "nombre": "Trinidad", "poblacion": 101628, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -64.78333, -14.78333 ] } },
+{ "type": "Feature", "properties": { "id": "80222", "pais": "Bolivia", "nombre": "Riberalta", "poblacion": 78773, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -66.1, -10.98333 ] } },
+{ "type": "Feature", "properties": { "id": "80223", "pais": "Bolivia", "nombre": "Guayaramerin", "poblacion": 35803, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -65.42, -10.8 ] } },
+{ "type": "Feature", "properties": { "id": "80224", "pais": "Bolivia", "nombre": "San Borja", "poblacion": 22186, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -64.23333, -12.58333 ] } },
+{ "type": "Feature", "properties": { "id": "80225", "pais": "Bolivia", "nombre": "Cobija", "poblacion": 44120, "fecha_relevamiento": "2012" }, "geometry": { "type": "Point", "coordinates": [ -68.73333, -11.03333 ] } }
+]
+}
