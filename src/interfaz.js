@@ -86,7 +86,6 @@ function estiloDelPuntoDeLaCapaCiudades(geoJsonPoint, latlng) {
     });
 }
 
-// aca comienza el codigo
 export function crearMenu(mapaDeReferencia) {
     ciudades.forEach(ciudad => crearBotones(ciudad, mapaDeReferencia));
 }
