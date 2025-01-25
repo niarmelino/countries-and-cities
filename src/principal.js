@@ -14,16 +14,22 @@ const darkm = new L.tileLayer('http://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{
   maxZoom: 16
 });
 
+const mapaIGN = new L.tileLayer('https://wms.ign.gob.ar/geoserver/gwc/service/tms/1.0.0/mapabase_gris@EPSG%3A3857@png/{z}/{x}/{-y}.png', {
+  minZoom: 1,
+  maxZoom: 16
+});
+
 const mapaDeReferencia = L.map('mapa', {
     center: ["-20.3308", "-60.1277"],
     zoom: 3,
-    layers: [osm, mapaDeGoogle]
+    layers: [mapaDeGoogle]
 });
 
 const baseLayers = {
+  "Google Satelite": mapaDeGoogle,
   "Dark Matter": darkm,
   "OSM": osm,
-  "Google Satelite": mapaDeGoogle,
+  "Mapa IGN": mapaIGN
 };
 
 // Agrego los controles
